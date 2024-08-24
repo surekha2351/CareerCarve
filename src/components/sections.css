@@ -1,0 +1,93 @@
+.container {
+  position: absolute;
+  width: 1440px;
+  height: 1289px;
+  left: 0px;
+  top: 0px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+
+  position: absolute;
+  width: 1123px;
+  height: 743px;
+  left: 155px;
+  top: 58px;
+}
+
+.header_container {
+  width: 357px;
+  height: 40px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  color: #391050;
+  line-height: 40px;
+  
+}
+
+.list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  width: 903px;
+  height: 35px;
+  flex: none;
+  border-bottom: 1px solid #e6e6e6;
+}
+p {
+  height: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.15px;
+  margin-left: 18px;
+}
+.info {
+  margin-left: 21px;
+  margin-right: 18px;
+  color: #8008c6;
+  cursor: pointer;
+}
+.pen {
+  margin-left: auto;
+  cursor: pointer;
+  color: #4a064b;
+}
+.toggle {
+  margin-left: 26px;
+  color: #8008c6;
+}
+
+button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 50px;
+  gap: 10px;
+
+  width: 229px;
+  height: 52px;
+cursor: pointer;
+  background: #046e29;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-size: 16px;
+  border: none;
+}
+button:hover{
+  background: #8008c6;
+}
+.hamburger{
+  color: #4f0679;
+}
